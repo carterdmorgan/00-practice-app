@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Card from './Card';
+import Card from '../Card';
 
-export default function Display() {
+export default function Dogs() {
   const [canines, setCanines] = useState([]);
   const [greeting, setGreeting] = useState('Hello, everyone!');
 
